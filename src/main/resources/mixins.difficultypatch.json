@@ -1,7 +1,7 @@
 {
-	"package": "io.bluebeaker.difficultypatch.mixin",
-	"required": false,
-	"refmap": "${mixin_refmap}",
+	"package": "",
+	"required": true,
+	"refmap": "mixins.difficultypatch.refmap.json",
 	"target": "@env(DEFAULT)",
 	"minVersion": "0.8.5",
 	"compatibilityLevel": "JAVA_8",
