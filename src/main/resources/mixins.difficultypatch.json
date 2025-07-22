@@ -1,5 +1,5 @@
 {
-	"package": "",
+	"package": "io.bluebeaker.difficultypatch.mixin",
 	"required": true,
 	"refmap": "mixins.difficultypatch.refmap.json",
 	"target": "@env(DEFAULT)",
@@ -7,5 +7,5 @@
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [],
 	"server": [],
-	"client": []
+	"client": ["MixinIntegratedServer"]
 }

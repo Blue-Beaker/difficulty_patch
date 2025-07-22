@@ -8,11 +8,12 @@ import javax.annotation.Nullable;
 
 import net.minecraftforge.common.ForgeVersion;
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
+import zone.rong.mixinbooter.IEarlyMixinLoader;
 import zone.rong.mixinbooter.ILateMixinLoader;
 
 @IFMLLoadingPlugin.Name("difficultypatch")
 @IFMLLoadingPlugin.MCVersion(ForgeVersion.mcVersion)
-public class DifficultyPatchMixins implements IFMLLoadingPlugin, ILateMixinLoader {
+public class DifficultyPatchMixins implements IFMLLoadingPlugin, IEarlyMixinLoader {
 
     @Override
     public List<String> getMixinConfigs() {
